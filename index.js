@@ -6,8 +6,8 @@ const port = process.env.PORT || 7000;
 
 
 app.get("/",(req, res)=>{
-    res.send("this is server merge frontend")
-})
+    res.send("this is server merge frontend");
+});
 
 
 
